@@ -1,0 +1,100 @@
+/* -------- ESTILOS GENERALES -------- */
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f8;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+     background-color: #0f172a;
+    color: #fff;
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+header h1 {
+    font-size: 2.2rem;
+     margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    text-align: center;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+image{
+    width: 175px;          /* igual que las otras */
+    height: 266px;         /* igual que las otras */
+    object-fit: cover;
+}
+
+h2 {
+    color: #1e293b;
+    border-left: 5px solid #3b82f6;
+    padding-left: 10px;
+}
+
+h3 {
+    color: #334155;
+    margin-top: 1.5rem;
+}
+
+p {
+    text-align: justify;
+}
+
+/* -------- TABLA -------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    border: 1px solid #e2e8f0;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+th {
+    background-color: #e0f2fe;
+    color: #1e293b;
+}
+
+/* -------- LISTAS -------- */
+ul {
+    list-style-type: "💡 ";
+    margin-left: 1.5rem;
+}
+
+/* -------- PIE DE PÁGINA -------- */
+footer {
+    background-color: #0f172a;
+    color: #cbd5e1;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+footer p{
+    text-align: center;
+}
+
+footer a {
+    color: #38bdf8;
+    text-decoration: none;
+}
