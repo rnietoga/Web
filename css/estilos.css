@@ -17,7 +17,7 @@ header {
 
 header h1 {
     font-size: 2.2rem;
-     margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 header p {
@@ -28,14 +28,13 @@ header p {
 
 main {
     max-width: 1000px;
-    margin: 10rem auto 2rem auto; /* margen superior aumentado */
+    margin: 10rem auto 2rem auto; /* margen superior aumentado para evitar solapaciones */
     margin-top: 2rem;
     background-color: #fff;
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
-
 
 section {
     margin-bottom: 2rem;
@@ -68,9 +67,9 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px; /* altura definida */
+    height: 60px; 
     display: flex;
-    align-items: center; /* centra verticalmente los enlaces */
+    align-items: center; 
     justify-content: center;
     z-index: 1000;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -98,7 +97,6 @@ nav {
     color: white;
 }
 
-/* Scroll suave */
 html {
     scroll-behavior: smooth;
 }
@@ -120,25 +118,25 @@ th {
     background-color: #e0f2fe;
     color: #1e293b;
 }
+
 /* -------- SECCIÓN NEURALINK -------- */
 #neuralink {
     margin-top: 3rem;
 }
 
 .neuralink-contenido {
-    display: flex;               /* Pone texto e imagen en la misma línea */
-    align-items: center;         /* Alinea verticalmente al centro */
+    display: flex;               
+    align-items: center;        
     justify-content: space-between;
     gap: 2rem;                   /* Espacio entre texto e imagen */
 }
 
-/* El texto ocupa más espacio que la imagen */
 .neuralink-contenido .texto {
-    flex: 3;                     /* 3 partes del espacio total */
+    flex: 3;                     /* Ocupa 3 partes del espacio total */
 }
 
 .neuralink-contenido .imagen {
-    flex: 2;                     /* 2 partes del espacio total */
+    flex: 2;                     
     display: flex;
     justify-content: center;
 }
@@ -149,8 +147,6 @@ th {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-
-
 
 /* -------- LISTAS -------- */
 ul {
@@ -165,6 +161,7 @@ footer {
     padding: 1rem;
     font-size: 0.9rem;
 }
+
 footer p{
     text-align: center;
 }
